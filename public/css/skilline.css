@@ -1,0 +1,53 @@
+/* Background (instead of cream, use a soft light green) */
+.bg-cream {
+    background-color: #E8F5E9; /* soft eco-friendly green */
+}
+
+/* Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1B4332; /* deep forest green for text */
+}
+
+/* Primary green accent (instead of yellow-orange) */
+.bg-yellow-500 {
+    background-color: #2E7D32; /* strong leaf green */
+}
+
+.text-yellow-500 {
+    color: #2E7D32;
+}
+
+/* Optional: add a lighter accent green for hover/secondary */
+.bg-green-light {
+    background-color: #A5D6A7; /* light pastel green */
+}
+
+.text-green-light {
+    color: #A5D6A7;
+}
+.floating { 
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+@keyframes floating { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+} 
+.floating-4 { 
+    animation-name: floating; 
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+@keyframes floating-4 { 
+    0% { transform: translate(0, 0px); } 
+    50% { transform: translate(0, 8px); } 
+    100% { transform: translate(0, -0px); }  
+}
+.text-darken {
+    color: #2F327D;
+}

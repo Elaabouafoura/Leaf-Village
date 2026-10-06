@@ -1,0 +1,36 @@
+# Laravel & PHP
+/vendor/
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+.env.backup
+.env.testing
+
+# Laravel Mix / NPM
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/logs
+
+# IDE & OS files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# Composer & NPM logs
+composer.lock
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Cache
+/.phpunit.cache
+/.fleet/91°
